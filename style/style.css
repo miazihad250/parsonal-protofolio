@@ -73,7 +73,7 @@ nav, ul{
 }
 .skills {
   padding: 100px 150px; /* Top-Bottom 100px, Left-Right 150px */
-  background-color: #ffffff;
+  background-color: #ece6e6;
 }
 
 .skills-container {
@@ -85,11 +85,11 @@ nav, ul{
 
 .skill {
   text-align: center;
-  background-color: #ffffff;
+  background-color: #eef5fa;
   width: 260px;
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 6px 50px 0px rgba(19, 23, 240, 0.06);
   transition: transform 0.3s;
 }
 
@@ -114,3 +114,49 @@ nav, ul{
   color: #757575;
   line-height: 1.6;
 }
+.footer {
+  padding: 80px 150px;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-contact {
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #FD6E0A;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #e65b00;
+}
+
